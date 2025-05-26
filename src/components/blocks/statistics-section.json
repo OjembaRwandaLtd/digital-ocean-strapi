@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_statistics_sections",
+  "info": {
+    "displayName": "statistics Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "statCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.quote"
+    }
+  }
+}

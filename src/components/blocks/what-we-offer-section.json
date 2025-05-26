@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_what_we_offer_sections",
+  "info": {
+    "displayName": "What We Offer Section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.quote"
+    },
+    "iconText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.content-card"
+    }
+  }
+}

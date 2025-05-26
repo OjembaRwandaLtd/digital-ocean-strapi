@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_content_cards",
+  "info": {
+    "displayName": "contentCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.media"
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.quote"
+    }
+  }
+}

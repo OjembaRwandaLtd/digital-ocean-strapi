@@ -85,6 +85,7 @@ public/uploads/*
 .tsbuildinfo
 .eslintcache
 
+
 ############################
 # Node.js
 ############################
@@ -96,6 +97,7 @@ logs
 results
 node_modules
 .node_history
+types
 
 ############################
 # Package managers
