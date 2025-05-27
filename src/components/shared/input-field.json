@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_input_fields",
+  "info": {
+    "displayName": "form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}
