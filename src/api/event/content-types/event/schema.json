@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "events"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.quote"
+    }
+  }
+}
