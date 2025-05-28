@@ -1,18 +1,18 @@
 {
   "collectionName": "components_blocks_statistics_sections",
   "info": {
-    "displayName": "statistics Section",
+    "displayName": "Analytics Section",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "heading": {
       "type": "string"
     },
-    "statCard": {
+    "analyticDescription": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.quote"
+      "component": "shared.rich-text"
     }
   }
 }
