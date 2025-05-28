@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_success_cards",
   "info": {
-    "displayName": "successCard"
+    "displayName": "successCard",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,15 +11,10 @@
       "repeatable": false,
       "component": "shared.media"
     },
-    "body": {
+    "content": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.rich-text"
-    },
-    "button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.link"
+      "component": "shared.quote"
     }
   }
 }
