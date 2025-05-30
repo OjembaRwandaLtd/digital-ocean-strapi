@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_event_location_dates",
+  "info": {
+    "displayName": "location and date",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "location": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

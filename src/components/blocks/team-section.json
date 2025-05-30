@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_team_sections",
+  "info": {
+    "displayName": "team Section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "profile": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.profile"
+    }
+  }
+}

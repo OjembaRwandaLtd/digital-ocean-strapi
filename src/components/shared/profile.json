@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_profiles",
+  "info": {
+    "displayName": "profile"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.media"
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "social_link": {
+      "type": "string"
+    }
+  }
+}
