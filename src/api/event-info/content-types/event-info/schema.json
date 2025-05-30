@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_infos",
+  "info": {
+    "singularName": "event-info",
+    "pluralName": "event-infos",
+    "displayName": "Event post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "event_status": {
+      "type": "enumeration",
+      "enum": [
+        "upcoming",
+        "past"
+      ]
+    },
+    "button_action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "is_featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "location_and_date": {
+      "displayName": "event-location-date",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.event-location-date"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}
