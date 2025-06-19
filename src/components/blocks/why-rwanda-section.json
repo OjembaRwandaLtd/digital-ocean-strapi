@@ -15,6 +15,11 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.content-card"
+    },
+    "whyRwandaVideo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.media"
     }
   }
 }
