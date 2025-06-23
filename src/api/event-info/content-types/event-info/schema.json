@@ -1,11 +1,11 @@
 {
-  "kind": "singleType",
-  "collectionName": "globals",
+  "kind": "collectionType",
+  "collectionName": "event_infos",
   "info": {
-    "singularName": "global",
-    "pluralName": "globals",
-    "displayName": "Global",
-    "description": "Define global settings"
+    "singularName": "event-info",
+    "pluralName": "event-infos",
+    "displayName": "Event post",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,23 +16,31 @@
     }
   },
   "attributes": {
-    "siteName": {
+    "title": {
       "type": "string",
-      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "favicon": {
+    "description": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "cover": {
       "type": "media",
       "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
         "files",
-        "videos"
+        "videos",
+        "audios"
       ],
       "pluginOptions": {
         "i18n": {
@@ -40,44 +48,52 @@
         }
       }
     },
-    "siteDescription": {
-      "type": "text",
-      "required": true,
+    "event_status": {
+      "type": "enumeration",
+      "enum": [
+        "upcoming",
+        "past"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "defaultSeo": {
+    "button_action": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo",
+      "component": "shared.link",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "header": {
-      "type": "component",
-      "repeatable": false,
-      "component": "layout.header",
+    "is_featured": {
+      "type": "boolean",
+      "default": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "footer": {
+    "location_and_date": {
+      "displayName": "event-location-date",
       "type": "component",
-      "repeatable": false,
-      "component": "layout.footer",
+      "repeatable": true,
+      "component": "shared.event-location-date",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
     }
   }
 }

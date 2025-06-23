@@ -27,7 +27,11 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images", "files", "videos"]
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
     },
     "author": {
       "type": "relation",
@@ -41,9 +45,16 @@
       "target": "api::category.category",
       "inversedBy": "articles"
     },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": ["shared.media", "shared.quote", "shared.rich-text", "shared.slider"]
+    "publisher": {
+      "type": "string"
+    },
+    "publication_date": {
+      "type": "date"
+    },
+    "event_post": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::event-info.event-info"
     }
   }
 }

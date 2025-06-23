@@ -1,0 +1,14 @@
+{
+  "kind": "singleType",
+  "collectionName": "invest_in_rwandas",
+  "info": {
+    "singularName": "invest-in-rwanda",
+    "pluralName": "invest-in-rwandas",
+    "displayName": "Invest In Rwanda",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {}
+}
