@@ -1,6 +1,7 @@
 export default [
   "strapi::logger",
   "strapi::errors",
+
   {
     name: "strapi::security",
     config: {
@@ -13,13 +14,15 @@ export default [
             "data:",
             "blob:",
             "dl.airtable.com",
-            "strapistorage.blr1.amazonaws.com",
+            "strapistorage.s3.blr1.amazonaws.com",
+            "https://strapistorage.s3.blr1.amazonaws.com",
           ],
           "media-src": [
             "'self'",
             "data:",
             "blob:",
             "dl.airtable.com",
+            "strapistorage.s3.blr1.amazonaws.com",
             "https://strapistorage.s3.blr1.amazonaws.com",
           ],
           upgradeInsecureRequests: null,
