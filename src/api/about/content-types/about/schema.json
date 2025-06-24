@@ -20,6 +20,11 @@
       "type": "component",
       "repeatable": false,
       "component": "blocks.team-section"
+    },
+    "partnersSectionHeading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.quote"
     }
   }
 }
