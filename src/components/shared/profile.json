@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_profiles",
   "info": {
-    "displayName": "profile"
+    "displayName": "profile",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,6 +19,10 @@
     },
     "social_link": {
       "type": "string"
+    },
+    "isBoardMember": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
