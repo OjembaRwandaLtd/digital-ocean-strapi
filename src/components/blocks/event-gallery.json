@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_event_galleries",
+  "info": {
+    "displayName": "event-gallery"
+  },
+  "options": {},
+  "attributes": {
+    "event_title": {
+      "type": "string"
+    },
+    "event_images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "external_link_gallery": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}
