@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "media",
+  "info": {
+    "singularName": "media-gallery",
+    "pluralName": "media",
+    "displayName": "Media",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "imageGallery": {
+      "displayName": "event-gallery",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.event-gallery"
+    },
+    "videoGallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.media"
+    }
+  }
+}
