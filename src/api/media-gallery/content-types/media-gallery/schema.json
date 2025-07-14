@@ -17,10 +17,10 @@
       "repeatable": true,
       "component": "blocks.event-gallery"
     },
-    "videoGallery": {
+    "youtube_video": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.media"
+      "component": "shared.link"
     }
   }
 }
