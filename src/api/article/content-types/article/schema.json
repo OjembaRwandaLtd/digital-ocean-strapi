@@ -15,10 +15,6 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "text",
-      "maxLength": 80
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
@@ -39,12 +35,6 @@
       "target": "api::author.author",
       "inversedBy": "articles"
     },
-    "category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::category.category",
-      "inversedBy": "articles"
-    },
     "publisher": {
       "type": "string"
     },
@@ -55,6 +45,15 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::event-info.event-info"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "articles"
+    },
+    "description": {
+      "type": "blocks"
     }
   }
 }
