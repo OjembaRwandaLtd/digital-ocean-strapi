@@ -1,22 +1,31 @@
 module.exports = ({ env }) => ({
   upload: {
     config: {
-      provider: 'aws-s3',
+      provider: "aws-s3",
       providerOptions: {
-        region: env('AWS_REGION'),
-        endpoint: env('DO_SPACE_ENDPOINT'),
+        region: env("AWS_REGION"),
+        endpoint: env("DO_SPACE_ENDPOINT"),
         credentials: {
-          accessKeyId: env('AWS_ACCESS_KEY_ID'),
-          secretAccessKey: env('AWS_ACCESS_SECRET'),
+          accessKeyId: env("AWS_ACCESS_KEY_ID"),
+          secretAccessKey: env("AWS_ACCESS_SECRET"),
         },
         params: {
-          Bucket: env('AWS_BUCKET'),
+          Bucket: env("AWS_BUCKET"),
         },
       },
       actionOptions: {
         upload: {},
         uploadStream: {},
         delete: {},
+      },
+    },
+  },
+
+  email: {
+    config: {
+      provider: "sendgrid",
+      providerOptions: {
+        apiKey: env("SENDGRID_API_KEY"),
       },
     },
   },
