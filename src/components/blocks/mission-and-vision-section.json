@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_mission_and_vision_sections",
+  "info": {
+    "displayName": "Mission And Vision Section"
+  },
+  "options": {},
+  "attributes": {
+    "missionAndVisionStatement": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.title-desc-object"
+    }
+  }
+}

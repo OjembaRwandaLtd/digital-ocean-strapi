@@ -25,6 +25,24 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.input-field"
+    },
+    "newsletterSubscription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title-desc-object"
+    },
+    "contactUs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.contact-info"
+    },
+    "copyrightText": {
+      "type": "string"
+    },
+    "gbsSocialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.logo"
     }
   }
 }

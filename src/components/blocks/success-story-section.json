@@ -1,20 +1,18 @@
 {
   "collectionName": "components_blocks_success_story_sections",
   "info": {
-    "displayName": "success Story Section",
+    "displayName": "success Stories Section",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.quote"
-    },
     "successCard": {
       "type": "component",
       "repeatable": true,
       "component": "shared.success-card"
+    },
+    "heading": {
+      "type": "string"
     }
   }
 }

@@ -1,17 +1,16 @@
 {
-  "collectionName": "components_blocks_what_we_offer_sections",
+  "collectionName": "components_blocks_pillars_sections",
   "info": {
-    "displayName": "What We Offer Homepage Section",
-    "description": ""
+    "displayName": "Pillars Section"
   },
   "options": {},
   "attributes": {
     "heading": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.section-header"
+      "component": "shared.title-desc-object"
     },
-    "serviceCard": {
+    "pillars": {
       "type": "component",
       "repeatable": true,
       "component": "shared.content-card"
