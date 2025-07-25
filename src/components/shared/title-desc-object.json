@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_title_desc_objects",
+  "info": {
+    "displayName": "titleDescObject",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

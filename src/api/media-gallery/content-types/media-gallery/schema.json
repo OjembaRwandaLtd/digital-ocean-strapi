@@ -11,13 +11,13 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "imageGallery": {
+    "eventGallery": {
       "displayName": "event-gallery",
       "type": "component",
       "repeatable": true,
       "component": "blocks.event-gallery"
     },
-    "youtube_video": {
+    "youtubeVideo": {
       "type": "component",
       "repeatable": true,
       "component": "shared.link"

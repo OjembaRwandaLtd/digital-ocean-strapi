@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_what_we_offer_about_us_sections",
+  "info": {
+    "displayName": "What We Offer About Us Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.section-header"
+    },
+    "service": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.title-desc-object"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.media"
+    }
+  }
+}

@@ -1,12 +1,12 @@
 {
-  "collectionName": "components_shared_link_lists",
+  "collectionName": "components_blocks_our_feeds",
   "info": {
-    "displayName": "footerLink",
+    "displayName": "Our Feed Section",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "navigation": {
+    "linkedinLinkToEmbed": {
       "type": "component",
       "repeatable": true,
       "component": "shared.link"

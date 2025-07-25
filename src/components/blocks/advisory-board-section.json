@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_blocks_what_we_offer_sections",
+  "collectionName": "components_blocks_advisory_board_sections",
   "info": {
-    "displayName": "What We Offer Homepage Section",
-    "description": ""
+    "displayName": "Advisory Board Section"
   },
   "options": {},
   "attributes": {
@@ -11,10 +10,10 @@
       "repeatable": false,
       "component": "shared.section-header"
     },
-    "serviceCard": {
+    "boardMember": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.content-card"
+      "component": "shared.profile"
     }
   }
 }

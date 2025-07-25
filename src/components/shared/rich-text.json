@@ -6,9 +6,5 @@
     "description": ""
   },
   "options": {},
-  "attributes": {
-    "text": {
-      "type": "richtext"
-    }
-  }
+  "attributes": {}
 }

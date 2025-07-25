@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_blocks_what_we_offer_sections",
+  "collectionName": "components_blocks_articles",
   "info": {
-    "displayName": "What We Offer Homepage Section",
+    "displayName": "Articles Section",
     "description": ""
   },
   "options": {},
@@ -11,10 +11,10 @@
       "repeatable": false,
       "component": "shared.section-header"
     },
-    "serviceCard": {
+    "article": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.content-card"
+      "component": "shared.report"
     }
   }
 }
