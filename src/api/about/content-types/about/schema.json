@@ -16,15 +16,17 @@
     }
   },
   "attributes": {
-    "team": {
-      "type": "component",
-      "repeatable": false,
-      "component": "blocks.team-section"
-    },
-    "partnersSectionHeading": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.quote"
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.team-section",
+        "blocks.about-us-hero-section",
+        "blocks.mission-and-vision-section",
+        "blocks.pillars-section",
+        "blocks.what-we-offer-about-us-section",
+        "blocks.advisory-board-section",
+        "blocks.gbs-partners-section"
+      ]
     }
   }
 }

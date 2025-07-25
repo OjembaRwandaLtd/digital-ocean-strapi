@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_reports",
+  "info": {
+    "displayName": "newsCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "publishDate": {
+      "type": "date"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.media"
+    },
+    "publisher": {
+      "type": "string"
+    }
+  }
+}

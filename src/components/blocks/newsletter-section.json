@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_blocks_newsletter_sections",
+  "info": {
+    "displayName": "Newsletter Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.media"
+    },
+    "publishDate": {
+      "type": "date"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}
