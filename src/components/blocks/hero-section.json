@@ -10,11 +10,6 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.media"
-    },
-    "heading": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.quote"
     }
   }
 }
