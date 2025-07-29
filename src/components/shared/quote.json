@@ -2,19 +2,15 @@
   "collectionName": "components_shared_quotes",
   "info": {
     "displayName": "Quote",
-    "icon": "indent",
-    "description": ""
+    "icon": "indent"
   },
   "options": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
-    "Quote": {
+    "body": {
       "type": "text"
-    },
-    "company": {
-      "type": "string"
     }
   }
 }

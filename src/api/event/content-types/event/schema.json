@@ -16,10 +16,25 @@
     }
   },
   "attributes": {
+    "cover": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.slider",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "heading": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.title-desc-object"
+      "component": "shared.quote",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
