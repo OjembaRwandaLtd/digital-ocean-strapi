@@ -1,11 +1,14 @@
 {
   "collectionName": "components_shared_link_lists",
   "info": {
-    "displayName": "footerLink",
+    "displayName": "footerLinks",
     "description": ""
   },
   "options": {},
   "attributes": {
+    "title": {
+      "type": "string"
+    },
     "navigation": {
       "type": "component",
       "repeatable": true,

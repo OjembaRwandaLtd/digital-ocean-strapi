@@ -6,24 +6,15 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.media"
     },
-    "description": {
-      "type": "text"
-    },
-    "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "alt": {
-      "type": "string"
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.quote"
     }
   }
 }

@@ -10,22 +10,5 @@
   "options": {
     "draftAndPublish": true
   },
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "playbookLink": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.link"
-    },
-    "reasonToInvestInRwanda": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.reasons-to-invest-in-rwanda"
-    }
-  }
+  "attributes": {}
 }

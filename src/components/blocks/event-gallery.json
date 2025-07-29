@@ -1,26 +1,24 @@
 {
   "collectionName": "components_blocks_event_galleries",
   "info": {
-    "displayName": "event-gallery",
-    "description": ""
+    "displayName": "event-gallery"
   },
   "options": {},
   "attributes": {
-    "title": {
+    "event_title": {
       "type": "string"
     },
-    "images": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
+    "event_images": {
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": true
     },
-    "externalGalleryLink": {
+    "external_link_gallery": {
       "type": "component",
       "repeatable": false,
       "component": "shared.link"

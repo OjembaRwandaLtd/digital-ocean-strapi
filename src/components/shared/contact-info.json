@@ -1,26 +1,17 @@
 {
   "collectionName": "components_shared_contact_infos",
   "info": {
-    "displayName": "contactInfo",
-    "description": ""
+    "displayName": "contactInfo"
   },
   "options": {},
   "attributes": {
-    "label": {
+    "title": {
       "type": "string"
     },
-    "value": {
-      "type": "string"
-    },
-    "icon": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.rich-text"
     }
   }
 }
