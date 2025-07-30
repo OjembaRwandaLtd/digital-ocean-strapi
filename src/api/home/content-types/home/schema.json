@@ -16,15 +16,14 @@
     }
   },
   "attributes": {
-    "sections": {
+    "blocks": {
       "type": "dynamiczone",
       "components": [
         "blocks.hero-section",
         "blocks.statistics-section",
         "blocks.what-we-offer-section",
         "blocks.success-story-section",
-        "blocks.why-rwanda-section",
-        "blocks.gbs-companies"
+        "blocks.why-rwanda-section"
       ],
       "pluginOptions": {
         "i18n": {

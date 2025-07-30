@@ -9,10 +9,10 @@
     "heading": {
       "type": "string"
     },
-    "Statistics": {
+    "analyticDescription": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.stats"
+      "component": "shared.rich-text"
     }
   }
 }

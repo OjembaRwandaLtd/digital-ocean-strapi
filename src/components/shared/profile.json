@@ -17,14 +17,12 @@
     "position": {
       "type": "string"
     },
-    "linkedinLink": {
+    "social_link": {
       "type": "string"
     },
-    "organization": {
-      "type": "string"
-    },
-    "biography": {
-      "type": "string"
+    "isBoardMember": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

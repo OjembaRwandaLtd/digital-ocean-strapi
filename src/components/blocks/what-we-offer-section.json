@@ -1,17 +1,16 @@
 {
   "collectionName": "components_blocks_what_we_offer_sections",
   "info": {
-    "displayName": "What We Offer Homepage Section",
-    "description": ""
+    "displayName": "What We Offer Section"
   },
   "options": {},
   "attributes": {
     "heading": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.section-header"
+      "component": "shared.quote"
     },
-    "serviceCard": {
+    "iconText": {
       "type": "component",
       "repeatable": true,
       "component": "shared.content-card"
