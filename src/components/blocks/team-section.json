@@ -6,13 +6,15 @@
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "string"
-    },
-    "profile": {
+    "teamMember": {
       "type": "component",
       "repeatable": true,
       "component": "shared.profile"
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.section-header"
     }
   }
 }
