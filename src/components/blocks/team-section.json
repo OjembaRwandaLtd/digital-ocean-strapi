@@ -9,7 +9,7 @@
     "heading": {
       "type": "string"
     },
-    "profile": {
+    "teamMember": {
       "type": "component",
       "repeatable": true,
       "component": "shared.profile"
