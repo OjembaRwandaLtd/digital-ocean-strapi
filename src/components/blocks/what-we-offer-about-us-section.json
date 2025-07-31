@@ -6,11 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.section-header"
-    },
     "service": {
       "type": "component",
       "repeatable": true,

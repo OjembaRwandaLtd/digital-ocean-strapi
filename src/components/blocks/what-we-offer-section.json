@@ -6,15 +6,15 @@
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.section-header"
-    },
     "serviceCard": {
       "type": "component",
       "repeatable": true,
       "component": "shared.content-card"
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title-desc-object"
     }
   }
 }

@@ -1,19 +1,20 @@
 {
   "collectionName": "components_blocks_gbs_partners_sections",
   "info": {
-    "displayName": "Gbs Partners Section"
+    "displayName": "Gbs Partners Section",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.section-header"
-    },
     "partnerImage": {
       "type": "component",
       "repeatable": true,
       "component": "shared.media"
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title-desc-object"
     }
   }
 }

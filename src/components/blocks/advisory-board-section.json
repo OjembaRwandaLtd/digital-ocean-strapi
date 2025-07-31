@@ -1,19 +1,20 @@
 {
   "collectionName": "components_blocks_advisory_board_sections",
   "info": {
-    "displayName": "Advisory Board Section"
+    "displayName": "Advisory Board Section",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.section-header"
-    },
     "boardMember": {
       "type": "component",
       "repeatable": true,
       "component": "shared.profile"
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.title-desc-object"
     }
   }
 }

@@ -14,7 +14,7 @@
     "heading": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.section-header"
+      "component": "shared.title-desc-object"
     }
   }
 }
