@@ -12,7 +12,9 @@
       "component": "shared.success-card"
     },
     "heading": {
-      "type": "string"
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title-desc-object"
     }
   }
 }
