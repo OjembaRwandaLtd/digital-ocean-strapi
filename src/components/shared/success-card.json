@@ -1,20 +1,28 @@
 {
   "collectionName": "components_shared_success_cards",
   "info": {
-    "displayName": "successCard",
+    "displayName": "testimonialCard",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "image": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.media"
+    "name": {
+      "type": "string"
     },
-    "content": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.quote"
+    "qoute": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "company": {
+      "type": "text"
     }
   }
 }

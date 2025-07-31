@@ -4,7 +4,8 @@
   "info": {
     "singularName": "publication",
     "pluralName": "publications",
-    "displayName": "Publication"
+    "displayName": "Publication",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,9 +14,9 @@
     "heading": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.quote"
+      "component": "shared.title-desc-object"
     },
-    "button_action": {
+    "playbookLink": {
       "type": "component",
       "repeatable": false,
       "component": "shared.link"

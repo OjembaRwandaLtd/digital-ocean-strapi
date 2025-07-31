@@ -1,15 +1,15 @@
 {
-  "collectionName": "components_blocks_team_sections",
+  "collectionName": "components_blocks_gbs_partners_sections",
   "info": {
-    "displayName": "Gbs Team Section",
+    "displayName": "Gbs Partners Section",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "teamMember": {
+    "partnerImage": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.profile"
+      "component": "shared.media"
     },
     "heading": {
       "type": "component",

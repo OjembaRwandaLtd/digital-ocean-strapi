@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_about_us_hero_sections",
+  "info": {
+    "displayName": "About Us Hero Section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title-desc-object"
+    }
+  }
+}
