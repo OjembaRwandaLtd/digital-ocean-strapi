@@ -16,21 +16,30 @@
     }
   },
   "attributes": {
-    "sections": {
-      "type": "dynamiczone",
-      "components": [
-        "blocks.hero-section",
-        "blocks.statistics-section",
-        "blocks.what-we-offer-section",
-        "blocks.success-story-section",
-        "blocks.why-rwanda-section",
-        "blocks.gbs-companies"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+    "heroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.hero-section"
+    },
+    "analyticsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.statistics-section"
+    },
+    "whatWeOffer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.what-we-offer-section"
+    },
+    "successStories": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.success-story-section"
+    },
+    "whyRwandaSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.why-rwanda-section"
     }
   }
 }

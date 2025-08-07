@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gbs_companies",
+  "info": {
+    "singularName": "gbs-company",
+    "pluralName": "gbs-companies",
+    "displayName": "GBS Companies",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "about": {
+      "type": "text"
+    },
+    "linkedinLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.unlabeled-link"
+    },
+    "twitterLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.unlabeled-link"
+    },
+    "website": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.unlabeled-link"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
