@@ -27,7 +27,7 @@ module.exports = ({ env }) => ({
         service: "gmail",
         auth: {
           type: "OAuth2",
-          user: env("EMAIL_USERNAME"),
+          user: env("AUTH_EMAIL"),
           clientId: env("GOOGLE_CLIENT_ID"),
           clientSecret: env("GOOGLE_CLIENT_SECRET"),
           refreshToken: env("GOOGLE_REFRESH_TOKEN"),
