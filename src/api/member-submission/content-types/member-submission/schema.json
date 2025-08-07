@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "member_submissions",
+  "info": {
+    "singularName": "member-submission",
+    "pluralName": "member-submissions",
+    "displayName": "member-submission-form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "fullName": {
+      "type": "text"
+    },
+    "organization_name": {
+      "type": "text"
+    },
+    "other_form_data": {
+      "type": "json"
+    }
+  }
+}
