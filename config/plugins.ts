@@ -20,13 +20,23 @@ module.exports = ({ env }) => ({
       },
     },
   },
-
   email: {
     config: {
-      provider: "sendgrid",
+      provider: "nodemailer",
       providerOptions: {
-        apiKey: env("SENDGRID_API_KEY"),
+        service: "gmail",
+        auth: {
+          type: "OAuth2",
+          user: env("EMAIL_USERNAME"),
+          clientId: env("GOOGLE_CLIENT_ID"),
+          clientSecret: env("GOOGLE_CLIENT_SECRET"),
+          refreshToken: env("GOOGLE_REFRESH_TOKEN"),
+        },
       },
+    },
+    settings: {
+      defaultFrom: env("FROM_EMAIL"),
+      defaultReplyTo: env("TO_EMAIL"),
     },
   },
 });
