@@ -16,17 +16,40 @@
     }
   },
   "attributes": {
-    "sections": {
-      "type": "dynamiczone",
-      "components": [
-        "blocks.team-section",
-        "blocks.about-us-hero-section",
-        "blocks.mission-and-vision-section",
-        "blocks.pillars-section",
-        "blocks.what-we-offer-about-us-section",
-        "blocks.advisory-board-section",
-        "blocks.gbs-partners-section"
-      ]
+    "missionAndVisionStatement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.mission-and-vision-section"
+    },
+    "ourPillars": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.pillars-section"
+    },
+    "whatWeOffer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.what-we-offer-about-us-section"
+    },
+    "gbsTeam": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.team-section"
+    },
+    "advisoryBoard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.advisory-board-section"
+    },
+    "gbsPartners": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.gbs-partners-section"
+    },
+    "heroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.about-us-hero-section"
     }
   }
 }

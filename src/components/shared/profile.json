@@ -6,11 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "image": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.media"
-    },
     "name": {
       "type": "string"
     },
@@ -25,6 +20,16 @@
     },
     "biography": {
       "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

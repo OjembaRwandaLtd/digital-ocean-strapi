@@ -6,10 +6,16 @@
   },
   "options": {},
   "attributes": {
-    "partnerImage": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.media"
+    "partnerImages": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "heading": {
       "type": "component",

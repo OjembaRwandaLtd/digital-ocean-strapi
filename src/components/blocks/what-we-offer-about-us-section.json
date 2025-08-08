@@ -6,15 +6,26 @@
   },
   "options": {},
   "attributes": {
-    "service": {
+    "services": {
       "type": "component",
       "repeatable": true,
       "component": "shared.title-desc-object"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heading": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.media"
+      "component": "shared.title-desc-object"
     }
   }
 }

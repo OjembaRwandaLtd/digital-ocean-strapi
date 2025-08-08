@@ -6,14 +6,14 @@
   },
   "options": {},
   "attributes": {
-    "boardMember": {
+    "boardMembers": {
       "type": "component",
       "repeatable": true,
       "component": "shared.profile"
     },
     "heading": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "shared.title-desc-object"
     }
   }
