@@ -20,7 +20,7 @@ Base URL: `https://your-domain.com/strapi/api`
 
 ## Environment Variables
 
-Below are the environment variables used in this project, grouped by category and find `.env.example` file contains sample environment variables and serves as a reference for the required configuration.
+Below are the environment variables used in this project, grouped by category and find `.env.example` file which contains sample environment variables and serves as a reference for the required configuration.
 
 | Category                 | Variable              | Purpose                                        | How to Obtain / Notes                                                               |
 |--------------------------|-----------------------|------------------------------------------------|-------------------------------------------------------------------------------------|
