@@ -48,37 +48,6 @@
         }
       }
     },
-    "event_status": {
-      "type": "enumeration",
-      "enum": [
-        "upcoming",
-        "past"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "button_action": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.link",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "is_featured": {
-      "type": "boolean",
-      "default": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "location_and_date": {
       "displayName": "event-location-date",
       "type": "component",
@@ -90,10 +59,31 @@
         }
       }
     },
-    "articles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::article.article"
+    "speakers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.profile"
+    },
+    "eventHighlights": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "eventPartners": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

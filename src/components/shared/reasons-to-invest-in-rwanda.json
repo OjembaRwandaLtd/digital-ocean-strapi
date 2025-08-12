@@ -9,15 +9,20 @@
     "title": {
       "type": "string"
     },
-    "image": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.media"
-    },
     "reasonPoints": {
       "type": "component",
       "repeatable": true,
       "component": "shared.title-desc-object"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

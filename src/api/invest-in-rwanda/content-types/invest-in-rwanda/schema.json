@@ -22,10 +22,15 @@
       "repeatable": false,
       "component": "shared.link"
     },
-    "reasonToInvestInRwanda": {
+    "reasonsToInvestInRwanda": {
       "type": "component",
       "repeatable": true,
       "component": "shared.reasons-to-invest-in-rwanda"
+    },
+    "statisticsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.statistics-section"
     }
   }
 }
