@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_unlabeled_links",
+  "info": {
+    "displayName": "UnlabeledLink"
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,15 +1,15 @@
 {
-  "collectionName": "components_blocks_success_story_sections",
+  "collectionName": "components_blocks_advisory_board_sections",
   "info": {
-    "displayName": "success Stories Section",
+    "displayName": "Advisory Board Section",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "successCard": {
+    "boardMembers": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.success-card"
+      "component": "shared.profile"
     },
     "heading": {
       "type": "component",

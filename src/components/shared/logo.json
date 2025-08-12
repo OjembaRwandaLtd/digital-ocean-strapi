@@ -1,19 +1,27 @@
 {
   "collectionName": "components_shared_logos",
   "info": {
-    "displayName": "Logo"
+    "displayName": "logoLink",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "logoText": {
+    "alt": {
       "type": "string"
     },
-    "image": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "href": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean"
     }
   }
 }

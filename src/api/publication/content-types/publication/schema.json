@@ -4,21 +4,37 @@
   "info": {
     "singularName": "publication",
     "pluralName": "publications",
-    "displayName": "Publication"
+    "displayName": "Publication",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
   },
   "attributes": {
     "heading": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.quote"
+      "component": "shared.title-desc-object",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "button_action": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.link"
+      "component": "shared.link",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

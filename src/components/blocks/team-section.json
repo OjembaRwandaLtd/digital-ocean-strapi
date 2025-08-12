@@ -1,17 +1,20 @@
 {
   "collectionName": "components_blocks_team_sections",
   "info": {
-    "displayName": "team Section"
+    "displayName": "Gbs Team Section",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "heading": {
-      "type": "string"
-    },
-    "profile": {
+    "teamMembers": {
       "type": "component",
       "repeatable": true,
       "component": "shared.profile"
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title-desc-object"
     }
   }
 }

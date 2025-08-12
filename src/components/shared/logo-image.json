@@ -1,21 +1,19 @@
 {
-  "collectionName": "components_shared_content_cards",
+  "collectionName": "components_shared_logo_images",
   "info": {
-    "displayName": "contentCard",
-    "description": ""
+    "displayName": "logoImage"
   },
   "options": {},
   "attributes": {
-    "title": {
+    "alt": {
       "type": "string"
-    },
-    "description": {
-      "type": "text"
     },
     "image": {
       "allowedTypes": [
         "images",
-        "files"
+        "files",
+        "videos",
+        "audios"
       ],
       "type": "media",
       "multiple": false

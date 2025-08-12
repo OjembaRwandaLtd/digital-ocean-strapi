@@ -16,25 +16,21 @@
     }
   },
   "attributes": {
-    "cover": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.slider",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "heading": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.quote",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "component": "shared.title-desc-object"
+    },
+    "heroSectionImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

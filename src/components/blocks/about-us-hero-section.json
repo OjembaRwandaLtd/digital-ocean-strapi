@@ -1,25 +1,16 @@
 {
-  "collectionName": "components_shared_profiles",
+  "collectionName": "components_blocks_about_us_hero_sections",
   "info": {
-    "displayName": "profile",
+    "displayName": "About Us Hero Section",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
-    "position": {
-      "type": "string"
-    },
-    "linkedinLink": {
-      "type": "string"
-    },
-    "organization": {
-      "type": "string"
-    },
-    "biography": {
-      "type": "string"
+    "description": {
+      "type": "text"
     },
     "image": {
       "allowedTypes": [

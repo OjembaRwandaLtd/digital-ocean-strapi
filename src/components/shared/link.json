@@ -1,11 +1,12 @@
 {
   "collectionName": "components_shared_links",
   "info": {
-    "displayName": "Link"
+    "displayName": "LabeledLink",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "text": {
+    "label": {
       "type": "string"
     },
     "href": {

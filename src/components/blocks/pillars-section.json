@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_pillars_sections",
+  "info": {
+    "displayName": "Pillars Section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title-desc-object"
+    },
+    "pillars": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.content-card"
+    }
+  }
+}

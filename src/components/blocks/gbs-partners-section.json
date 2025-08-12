@@ -1,15 +1,12 @@
 {
-  "collectionName": "components_blocks_event_galleries",
+  "collectionName": "components_blocks_gbs_partners_sections",
   "info": {
-    "displayName": "event-gallery",
+    "displayName": "Gbs Partners Section",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "event_title": {
-      "type": "string"
-    },
-    "event_images": {
+    "partnerImages": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -20,10 +17,10 @@
         "audios"
       ]
     },
-    "external_link_gallery": {
+    "heading": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.link"
+      "component": "shared.title-desc-object"
     }
   }
 }

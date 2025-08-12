@@ -1,25 +1,18 @@
 {
-  "collectionName": "components_shared_profiles",
+  "collectionName": "components_shared_reasons_to_invest_in_rwandas",
   "info": {
-    "displayName": "profile",
+    "displayName": "reasonToInvestInRwanda",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
     },
-    "position": {
-      "type": "string"
-    },
-    "linkedinLink": {
-      "type": "string"
-    },
-    "organization": {
-      "type": "string"
-    },
-    "biography": {
-      "type": "string"
+    "reasonPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.title-desc-object"
     },
     "image": {
       "allowedTypes": [
