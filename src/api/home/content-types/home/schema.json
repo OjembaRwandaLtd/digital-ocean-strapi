@@ -16,11 +16,6 @@
     }
   },
   "attributes": {
-    "heroSection": {
-      "type": "component",
-      "repeatable": false,
-      "component": "blocks.hero-section"
-    },
     "analyticsSection": {
       "type": "component",
       "repeatable": false,
@@ -40,6 +35,16 @@
       "type": "component",
       "repeatable": false,
       "component": "blocks.why-rwanda-section"
+    },
+    "heroSectionVideo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

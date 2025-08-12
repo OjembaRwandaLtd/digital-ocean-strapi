@@ -6,10 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "event_title": {
       "type": "string"
     },
-    "images": {
+    "event_images": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -20,7 +20,7 @@
         "audios"
       ]
     },
-    "externalGalleryLink": {
+    "external_link_gallery": {
       "type": "component",
       "repeatable": false,
       "component": "shared.link"

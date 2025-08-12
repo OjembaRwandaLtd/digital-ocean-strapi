@@ -46,12 +46,6 @@
       "relation": "oneToOne",
       "target": "api::event-info.event-info"
     },
-    "category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::category.category",
-      "inversedBy": "articles"
-    },
     "description": {
       "type": "blocks"
     }

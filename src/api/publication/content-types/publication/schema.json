@@ -10,16 +10,31 @@
   "options": {
     "draftAndPublish": true
   },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "heading": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.title-desc-object"
+      "component": "shared.title-desc-object",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
-    "playbookLink": {
+    "button_action": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.link"
+      "component": "shared.link",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
