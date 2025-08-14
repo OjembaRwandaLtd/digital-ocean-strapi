@@ -4,6 +4,7 @@ export default ({ strapi }) => ({
       const { name, email, message, company_name } = ctx.request.body;
       await strapi.plugins["email"].services.email.send({
         to: process.env.TO_EMAIL,
+        from: process.env.FROM_EMAIL,
         subject: "New Message from Your Website's Contact Form",
         html: `<div style="font-family: Arial, sans-serif; font-size: 14px; color: #333;">
     <h2 style="color: #444;">You’ve received a new message</h2>
@@ -21,15 +22,15 @@ export default ({ strapi }) => ({
     <p style="font-size: 12px; color: #888;">This message was submitted via your website's contact form.</p>
   </div>`,
       });
-      return {
-        success: true,
-        message: "Message sent successfully.",
+
+      ctx.body = {
+        status: 200,
+        message: "Message sent successfully!",
       };
     } catch (err) {
-      return {
-        success: false,
+      ctx.body = {
+        status: 500,
         message: "Failed to send message.",
-        error: err.message || err,
       };
     }
   },

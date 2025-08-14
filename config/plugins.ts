@@ -24,13 +24,22 @@ module.exports = ({ env }) => ({
     config: {
       provider: "nodemailer",
       providerOptions: {
-        service: "gmail",
+        //Oauth2 configuration for Gmail
+        //service: "gmail",
+        // auth: {
+        //   type: "OAuth2",
+        //   user: env("AUTH_EMAIL"),
+        //   clientId: env("GOOGLE_CLIENT_ID"),
+        //   clientSecret: env("GOOGLE_CLIENT_SECRET"),
+        //   refreshToken: env("GOOGLE_REFRESH_TOKEN"),
+        // },
+
+        //App password configuration
+        host: env("SMTP_HOST", "smtp.gmail.com"),
+        port: env("SMTP_PORT", 587),
         auth: {
-          type: "OAuth2",
-          user: env("AUTH_EMAIL"),
-          clientId: env("GOOGLE_CLIENT_ID"),
-          clientSecret: env("GOOGLE_CLIENT_SECRET"),
-          refreshToken: env("GOOGLE_REFRESH_TOKEN"),
+          user: env("AUTH_USER"),
+          pass: env("APP_PASS"),
         },
       },
     },

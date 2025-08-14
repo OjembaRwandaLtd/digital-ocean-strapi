@@ -1,7 +1,9 @@
 export default {
   async afterCreate(event) {
     const { result } = event;
-
+    if (result.publishedAt === null) {
+      return;
+    }
     try {
       await strapi.plugins["email"].services.email.send({
         to: process.env.TO_EMAIL,
