@@ -19,32 +19,53 @@
     "analyticsSection": {
       "type": "component",
       "repeatable": false,
-      "component": "blocks.statistics-section"
+      "component": "blocks.statistics-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "whatWeOffer": {
       "type": "component",
       "repeatable": false,
-      "component": "blocks.what-we-offer-section"
+      "component": "blocks.what-we-offer-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "successStories": {
       "type": "component",
       "repeatable": false,
-      "component": "blocks.success-story-section"
+      "component": "blocks.success-story-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "whyRwandaSection": {
       "type": "component",
       "repeatable": false,
-      "component": "blocks.why-rwanda-section"
+      "component": "blocks.why-rwanda-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "heroSectionVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
