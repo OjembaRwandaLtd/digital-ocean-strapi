@@ -19,7 +19,12 @@
     "heading": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.title-desc-object"
+      "component": "shared.title-desc-object",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "heroSectionImage": {
       "type": "media",

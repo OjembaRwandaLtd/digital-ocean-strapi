@@ -19,37 +19,72 @@
     "missionAndVisionStatement": {
       "type": "component",
       "repeatable": false,
-      "component": "blocks.mission-and-vision-section"
+      "component": "blocks.mission-and-vision-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "ourPillars": {
       "type": "component",
       "repeatable": false,
-      "component": "blocks.pillars-section"
+      "component": "blocks.pillars-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "whatWeOffer": {
       "type": "component",
       "repeatable": false,
-      "component": "blocks.what-we-offer-about-us-section"
+      "component": "blocks.what-we-offer-about-us-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "gbsTeam": {
       "type": "component",
       "repeatable": false,
-      "component": "blocks.team-section"
+      "component": "blocks.team-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "advisoryBoard": {
       "type": "component",
       "repeatable": false,
-      "component": "blocks.advisory-board-section"
+      "component": "blocks.advisory-board-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "gbsPartners": {
       "type": "component",
       "repeatable": false,
-      "component": "blocks.gbs-partners-section"
+      "component": "blocks.gbs-partners-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "heroSection": {
       "type": "component",
       "repeatable": false,
-      "component": "blocks.about-us-hero-section"
+      "component": "blocks.about-us-hero-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

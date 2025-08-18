@@ -62,7 +62,12 @@
     "speakers": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.profile"
+      "component": "shared.profile",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "eventHighlights": {
       "type": "media",
@@ -76,14 +81,15 @@
       ]
     },
     "eventPartners": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }
