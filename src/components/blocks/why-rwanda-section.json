@@ -6,11 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "whyRwandaVideo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.media"
-    },
     "whyRwandaSecondHeading": {
       "type": "component",
       "repeatable": false,
@@ -25,6 +20,14 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.title-desc-object"
+    },
+    "whyRwandaImage": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
